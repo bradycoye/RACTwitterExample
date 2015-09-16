@@ -13,6 +13,29 @@
 		6091B8AF1BA60EDD00C6F179 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6091B8AE1BA60EDD00C6F179 /* Assets.xcassets */; };
 		6091B8B21BA60EDD00C6F179 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6091B8B01BA60EDD00C6F179 /* LaunchScreen.storyboard */; };
 		6091B8BD1BA60EDD00C6F179 /* SwinjectMVVMExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6091B8BC1BA60EDD00C6F179 /* SwinjectMVVMExampleTests.swift */; };
+		6091B8CF1BA60F3400C6F179 /* ExampleModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 6091B8CE1BA60F3400C6F179 /* ExampleModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6091B8D61BA60F3400C6F179 /* ExampleModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6091B8CC1BA60F3400C6F179 /* ExampleModel.framework */; settings = {ASSET_TAGS = (); }; };
+		6091B8DD1BA60F3400C6F179 /* ExampleModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6091B8DC1BA60F3400C6F179 /* ExampleModelTests.swift */; };
+		6091B8E11BA60F3400C6F179 /* ExampleModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6091B8CC1BA60F3400C6F179 /* ExampleModel.framework */; };
+		6091B8E21BA60F3400C6F179 /* ExampleModel.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6091B8CC1BA60F3400C6F179 /* ExampleModel.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6091B8F91BA60F5100C6F179 /* ExampleViewModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6091B8EF1BA60F5100C6F179 /* ExampleViewModel.framework */; settings = {ASSET_TAGS = (); }; };
+		6091B9001BA60F5100C6F179 /* ExampleViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6091B8FF1BA60F5100C6F179 /* ExampleViewModelTests.swift */; };
+		6091B9041BA60F5100C6F179 /* ExampleViewModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6091B8EF1BA60F5100C6F179 /* ExampleViewModel.framework */; };
+		6091B9051BA60F5100C6F179 /* ExampleViewModel.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6091B8EF1BA60F5100C6F179 /* ExampleViewModel.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6091B91B1BA60F6500C6F179 /* ExampleView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6091B9111BA60F6500C6F179 /* ExampleView.framework */; settings = {ASSET_TAGS = (); }; };
+		6091B9221BA60F6500C6F179 /* ExampleViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6091B9211BA60F6500C6F179 /* ExampleViewTests.swift */; };
+		6091B9261BA60F6500C6F179 /* ExampleView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6091B9111BA60F6500C6F179 /* ExampleView.framework */; };
+		6091B9271BA60F6500C6F179 /* ExampleView.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6091B9111BA60F6500C6F179 /* ExampleView.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6091B9311BA6243C00C6F179 /* ExampleModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6091B8CC1BA60F3400C6F179 /* ExampleModel.framework */; };
+		6091B9341BA6245700C6F179 /* ExampleViewModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6091B8EF1BA60F5100C6F179 /* ExampleViewModel.framework */; };
+		6091B9351BA6281300C6F179 /* ExampleModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6091B8CC1BA60F3400C6F179 /* ExampleModel.framework */; };
+		6091B9361BA6283D00C6F179 /* ExampleViewModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6091B8EF1BA60F5100C6F179 /* ExampleViewModel.framework */; };
+		6091B9371BA62A8300C6F179 /* ExampleModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6091B8CC1BA60F3400C6F179 /* ExampleModel.framework */; };
+		6091B9381BA62A8700C6F179 /* ExampleViewModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6091B8EF1BA60F5100C6F179 /* ExampleViewModel.framework */; };
+		6091B9391BA62A8A00C6F179 /* ExampleView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6091B9111BA60F6500C6F179 /* ExampleView.framework */; };
+		6091B93A1BA62B3600C6F179 /* ExampleView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6091B9131BA60F6500C6F179 /* ExampleView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6091B93B1BA62B4B00C6F179 /* ExampleViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 6091B8F11BA60F5100C6F179 /* ExampleViewModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6091B9421BA62F9800C6F179 /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = 6091B9411BA62F9800C6F179 /* Cartfile */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,7 +46,79 @@
 			remoteGlobalIDString = 6091B8A31BA60EDD00C6F179;
 			remoteInfo = SwinjectMVVMExample;
 		};
+		6091B8D71BA60F3400C6F179 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6091B89C1BA60EDD00C6F179 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6091B8CB1BA60F3400C6F179;
+			remoteInfo = ExampleModel;
+		};
+		6091B8DF1BA60F3400C6F179 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6091B89C1BA60EDD00C6F179 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6091B8CB1BA60F3400C6F179;
+			remoteInfo = ExampleModel;
+		};
+		6091B8FA1BA60F5100C6F179 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6091B89C1BA60EDD00C6F179 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6091B8EE1BA60F5100C6F179;
+			remoteInfo = ExampleViewModel;
+		};
+		6091B9021BA60F5100C6F179 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6091B89C1BA60EDD00C6F179 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6091B8EE1BA60F5100C6F179;
+			remoteInfo = ExampleViewModel;
+		};
+		6091B91C1BA60F6500C6F179 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6091B89C1BA60EDD00C6F179 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6091B9101BA60F6500C6F179;
+			remoteInfo = ExampleView;
+		};
+		6091B9241BA60F6500C6F179 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6091B89C1BA60EDD00C6F179 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6091B9101BA60F6500C6F179;
+			remoteInfo = ExampleView;
+		};
+		6091B92F1BA6233D00C6F179 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6091B89C1BA60EDD00C6F179 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6091B8CB1BA60F3400C6F179;
+			remoteInfo = ExampleModel;
+		};
+		6091B9321BA6245300C6F179 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6091B89C1BA60EDD00C6F179 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6091B8EE1BA60F5100C6F179;
+			remoteInfo = ExampleViewModel;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6091B8E61BA60F3400C6F179 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				6091B9051BA60F5100C6F179 /* ExampleViewModel.framework in Embed Frameworks */,
+				6091B9271BA60F6500C6F179 /* ExampleView.framework in Embed Frameworks */,
+				6091B8E21BA60F3400C6F179 /* ExampleModel.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		6091B8A41BA60EDD00C6F179 /* SwinjectMVVMExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwinjectMVVMExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -36,6 +131,25 @@
 		6091B8B81BA60EDD00C6F179 /* SwinjectMVVMExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwinjectMVVMExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6091B8BC1BA60EDD00C6F179 /* SwinjectMVVMExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwinjectMVVMExampleTests.swift; sourceTree = "<group>"; };
 		6091B8BE1BA60EDD00C6F179 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6091B8CC1BA60F3400C6F179 /* ExampleModel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ExampleModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6091B8CE1BA60F3400C6F179 /* ExampleModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExampleModel.h; sourceTree = "<group>"; };
+		6091B8D01BA60F3400C6F179 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6091B8D51BA60F3400C6F179 /* ExampleModelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExampleModelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6091B8DC1BA60F3400C6F179 /* ExampleModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleModelTests.swift; sourceTree = "<group>"; };
+		6091B8DE1BA60F3400C6F179 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6091B8EF1BA60F5100C6F179 /* ExampleViewModel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ExampleViewModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6091B8F11BA60F5100C6F179 /* ExampleViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExampleViewModel.h; sourceTree = "<group>"; };
+		6091B8F31BA60F5100C6F179 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6091B8F81BA60F5100C6F179 /* ExampleViewModelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExampleViewModelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6091B8FF1BA60F5100C6F179 /* ExampleViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleViewModelTests.swift; sourceTree = "<group>"; };
+		6091B9011BA60F5100C6F179 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6091B9111BA60F6500C6F179 /* ExampleView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ExampleView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6091B9131BA60F6500C6F179 /* ExampleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExampleView.h; sourceTree = "<group>"; };
+		6091B9151BA60F6500C6F179 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6091B91A1BA60F6500C6F179 /* ExampleViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExampleViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6091B9211BA60F6500C6F179 /* ExampleViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleViewTests.swift; sourceTree = "<group>"; };
+		6091B9231BA60F6500C6F179 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6091B9411BA62F9800C6F179 /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +157,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6091B9041BA60F5100C6F179 /* ExampleViewModel.framework in Frameworks */,
+				6091B9261BA60F6500C6F179 /* ExampleView.framework in Frameworks */,
+				6091B8E11BA60F3400C6F179 /* ExampleModel.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +167,58 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6091B9391BA62A8A00C6F179 /* ExampleView.framework in Frameworks */,
+				6091B9381BA62A8700C6F179 /* ExampleViewModel.framework in Frameworks */,
+				6091B9371BA62A8300C6F179 /* ExampleModel.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6091B8C81BA60F3400C6F179 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6091B8D21BA60F3400C6F179 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6091B8D61BA60F3400C6F179 /* ExampleModel.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6091B8EB1BA60F5100C6F179 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6091B9311BA6243C00C6F179 /* ExampleModel.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6091B8F51BA60F5100C6F179 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6091B9351BA6281300C6F179 /* ExampleModel.framework in Frameworks */,
+				6091B8F91BA60F5100C6F179 /* ExampleViewModel.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6091B90D1BA60F6500C6F179 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6091B9341BA6245700C6F179 /* ExampleViewModel.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6091B9171BA60F6500C6F179 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6091B9361BA6283D00C6F179 /* ExampleViewModel.framework in Frameworks */,
+				6091B91B1BA60F6500C6F179 /* ExampleView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,8 +228,12 @@
 		6091B89B1BA60EDD00C6F179 = {
 			isa = PBXGroup;
 			children = (
+				6091B9411BA62F9800C6F179 /* Cartfile */,
+				6091B8CD1BA60F3400C6F179 /* ExampleModel */,
+				6091B8F01BA60F5100C6F179 /* ExampleViewModel */,
+				6091B9121BA60F6500C6F179 /* ExampleView */,
 				6091B8A61BA60EDD00C6F179 /* SwinjectMVVMExample */,
-				6091B8BB1BA60EDD00C6F179 /* SwinjectMVVMExampleTests */,
+				6091B92E1BA60F8400C6F179 /* Tests */,
 				6091B8A51BA60EDD00C6F179 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -70,6 +243,12 @@
 			children = (
 				6091B8A41BA60EDD00C6F179 /* SwinjectMVVMExample.app */,
 				6091B8B81BA60EDD00C6F179 /* SwinjectMVVMExampleTests.xctest */,
+				6091B8CC1BA60F3400C6F179 /* ExampleModel.framework */,
+				6091B8D51BA60F3400C6F179 /* ExampleModelTests.xctest */,
+				6091B8EF1BA60F5100C6F179 /* ExampleViewModel.framework */,
+				6091B8F81BA60F5100C6F179 /* ExampleViewModelTests.xctest */,
+				6091B9111BA60F6500C6F179 /* ExampleView.framework */,
+				6091B91A1BA60F6500C6F179 /* ExampleViewTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -96,7 +275,99 @@
 			path = SwinjectMVVMExampleTests;
 			sourceTree = "<group>";
 		};
+		6091B8CD1BA60F3400C6F179 /* ExampleModel */ = {
+			isa = PBXGroup;
+			children = (
+				6091B8CE1BA60F3400C6F179 /* ExampleModel.h */,
+				6091B8D01BA60F3400C6F179 /* Info.plist */,
+			);
+			path = ExampleModel;
+			sourceTree = "<group>";
+		};
+		6091B8DB1BA60F3400C6F179 /* ExampleModelTests */ = {
+			isa = PBXGroup;
+			children = (
+				6091B8DC1BA60F3400C6F179 /* ExampleModelTests.swift */,
+				6091B8DE1BA60F3400C6F179 /* Info.plist */,
+			);
+			path = ExampleModelTests;
+			sourceTree = "<group>";
+		};
+		6091B8F01BA60F5100C6F179 /* ExampleViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				6091B8F11BA60F5100C6F179 /* ExampleViewModel.h */,
+				6091B8F31BA60F5100C6F179 /* Info.plist */,
+			);
+			path = ExampleViewModel;
+			sourceTree = "<group>";
+		};
+		6091B8FE1BA60F5100C6F179 /* ExampleViewModelTests */ = {
+			isa = PBXGroup;
+			children = (
+				6091B8FF1BA60F5100C6F179 /* ExampleViewModelTests.swift */,
+				6091B9011BA60F5100C6F179 /* Info.plist */,
+			);
+			path = ExampleViewModelTests;
+			sourceTree = "<group>";
+		};
+		6091B9121BA60F6500C6F179 /* ExampleView */ = {
+			isa = PBXGroup;
+			children = (
+				6091B9131BA60F6500C6F179 /* ExampleView.h */,
+				6091B9151BA60F6500C6F179 /* Info.plist */,
+			);
+			path = ExampleView;
+			sourceTree = "<group>";
+		};
+		6091B9201BA60F6500C6F179 /* ExampleViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				6091B9211BA60F6500C6F179 /* ExampleViewTests.swift */,
+				6091B9231BA60F6500C6F179 /* Info.plist */,
+			);
+			path = ExampleViewTests;
+			sourceTree = "<group>";
+		};
+		6091B92E1BA60F8400C6F179 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				6091B8DB1BA60F3400C6F179 /* ExampleModelTests */,
+				6091B8FE1BA60F5100C6F179 /* ExampleViewModelTests */,
+				6091B9201BA60F6500C6F179 /* ExampleViewTests */,
+				6091B8BB1BA60EDD00C6F179 /* SwinjectMVVMExampleTests */,
+			);
+			name = Tests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6091B8C91BA60F3400C6F179 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6091B8CF1BA60F3400C6F179 /* ExampleModel.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6091B8EC1BA60F5100C6F179 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6091B93B1BA62B4B00C6F179 /* ExampleViewModel.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6091B90E1BA60F6500C6F179 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6091B93A1BA62B3600C6F179 /* ExampleView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		6091B8A31BA60EDD00C6F179 /* SwinjectMVVMExample */ = {
@@ -106,10 +377,14 @@
 				6091B8A01BA60EDD00C6F179 /* Sources */,
 				6091B8A11BA60EDD00C6F179 /* Frameworks */,
 				6091B8A21BA60EDD00C6F179 /* Resources */,
+				6091B8E61BA60F3400C6F179 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				6091B8E01BA60F3400C6F179 /* PBXTargetDependency */,
+				6091B9031BA60F5100C6F179 /* PBXTargetDependency */,
+				6091B9251BA60F6500C6F179 /* PBXTargetDependency */,
 			);
 			name = SwinjectMVVMExample;
 			productName = SwinjectMVVMExample;
@@ -134,6 +409,116 @@
 			productReference = 6091B8B81BA60EDD00C6F179 /* SwinjectMVVMExampleTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		6091B8CB1BA60F3400C6F179 /* ExampleModel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6091B8E31BA60F3400C6F179 /* Build configuration list for PBXNativeTarget "ExampleModel" */;
+			buildPhases = (
+				6091B8C71BA60F3400C6F179 /* Sources */,
+				6091B8C81BA60F3400C6F179 /* Frameworks */,
+				6091B8C91BA60F3400C6F179 /* Headers */,
+				6091B8CA1BA60F3400C6F179 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ExampleModel;
+			productName = ExampleModel;
+			productReference = 6091B8CC1BA60F3400C6F179 /* ExampleModel.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6091B8D41BA60F3400C6F179 /* ExampleModelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6091B8E71BA60F3400C6F179 /* Build configuration list for PBXNativeTarget "ExampleModelTests" */;
+			buildPhases = (
+				6091B8D11BA60F3400C6F179 /* Sources */,
+				6091B8D21BA60F3400C6F179 /* Frameworks */,
+				6091B8D31BA60F3400C6F179 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6091B8D81BA60F3400C6F179 /* PBXTargetDependency */,
+			);
+			name = ExampleModelTests;
+			productName = ExampleModelTests;
+			productReference = 6091B8D51BA60F3400C6F179 /* ExampleModelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6091B8EE1BA60F5100C6F179 /* ExampleViewModel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6091B9061BA60F5100C6F179 /* Build configuration list for PBXNativeTarget "ExampleViewModel" */;
+			buildPhases = (
+				6091B8EA1BA60F5100C6F179 /* Sources */,
+				6091B8EB1BA60F5100C6F179 /* Frameworks */,
+				6091B8EC1BA60F5100C6F179 /* Headers */,
+				6091B8ED1BA60F5100C6F179 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6091B9301BA6233D00C6F179 /* PBXTargetDependency */,
+			);
+			name = ExampleViewModel;
+			productName = ExampleViewModel;
+			productReference = 6091B8EF1BA60F5100C6F179 /* ExampleViewModel.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6091B8F71BA60F5100C6F179 /* ExampleViewModelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6091B9091BA60F5100C6F179 /* Build configuration list for PBXNativeTarget "ExampleViewModelTests" */;
+			buildPhases = (
+				6091B8F41BA60F5100C6F179 /* Sources */,
+				6091B8F51BA60F5100C6F179 /* Frameworks */,
+				6091B8F61BA60F5100C6F179 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6091B8FB1BA60F5100C6F179 /* PBXTargetDependency */,
+			);
+			name = ExampleViewModelTests;
+			productName = ExampleViewModelTests;
+			productReference = 6091B8F81BA60F5100C6F179 /* ExampleViewModelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6091B9101BA60F6500C6F179 /* ExampleView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6091B9281BA60F6500C6F179 /* Build configuration list for PBXNativeTarget "ExampleView" */;
+			buildPhases = (
+				6091B90C1BA60F6500C6F179 /* Sources */,
+				6091B90D1BA60F6500C6F179 /* Frameworks */,
+				6091B90E1BA60F6500C6F179 /* Headers */,
+				6091B90F1BA60F6500C6F179 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6091B9331BA6245300C6F179 /* PBXTargetDependency */,
+			);
+			name = ExampleView;
+			productName = ExampleView;
+			productReference = 6091B9111BA60F6500C6F179 /* ExampleView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6091B9191BA60F6500C6F179 /* ExampleViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6091B92B1BA60F6500C6F179 /* Build configuration list for PBXNativeTarget "ExampleViewTests" */;
+			buildPhases = (
+				6091B9161BA60F6500C6F179 /* Sources */,
+				6091B9171BA60F6500C6F179 /* Frameworks */,
+				6091B9181BA60F6500C6F179 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6091B91D1BA60F6500C6F179 /* PBXTargetDependency */,
+			);
+			name = ExampleViewTests;
+			productName = ExampleViewTests;
+			productReference = 6091B91A1BA60F6500C6F179 /* ExampleViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -149,6 +534,24 @@
 					6091B8B71BA60EDD00C6F179 = {
 						CreatedOnToolsVersion = 7.0;
 						TestTargetID = 6091B8A31BA60EDD00C6F179;
+					};
+					6091B8CB1BA60F3400C6F179 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					6091B8D41BA60F3400C6F179 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					6091B8EE1BA60F5100C6F179 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					6091B8F71BA60F5100C6F179 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					6091B9101BA60F6500C6F179 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					6091B9191BA60F6500C6F179 = {
+						CreatedOnToolsVersion = 7.0;
 					};
 				};
 			};
@@ -167,6 +570,12 @@
 			targets = (
 				6091B8A31BA60EDD00C6F179 /* SwinjectMVVMExample */,
 				6091B8B71BA60EDD00C6F179 /* SwinjectMVVMExampleTests */,
+				6091B8CB1BA60F3400C6F179 /* ExampleModel */,
+				6091B8D41BA60F3400C6F179 /* ExampleModelTests */,
+				6091B8EE1BA60F5100C6F179 /* ExampleViewModel */,
+				6091B8F71BA60F5100C6F179 /* ExampleViewModelTests */,
+				6091B9101BA60F6500C6F179 /* ExampleView */,
+				6091B9191BA60F6500C6F179 /* ExampleViewTests */,
 			);
 		};
 /* End PBXProject section */
@@ -178,11 +587,54 @@
 			files = (
 				6091B8B21BA60EDD00C6F179 /* LaunchScreen.storyboard in Resources */,
 				6091B8AF1BA60EDD00C6F179 /* Assets.xcassets in Resources */,
+				6091B9421BA62F9800C6F179 /* Cartfile in Resources */,
 				6091B8AD1BA60EDD00C6F179 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		6091B8B61BA60EDD00C6F179 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6091B8CA1BA60F3400C6F179 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6091B8D31BA60F3400C6F179 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6091B8ED1BA60F5100C6F179 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6091B8F61BA60F5100C6F179 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6091B90F1BA60F6500C6F179 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6091B9181BA60F6500C6F179 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -209,6 +661,51 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6091B8C71BA60F3400C6F179 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6091B8D11BA60F3400C6F179 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6091B8DD1BA60F3400C6F179 /* ExampleModelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6091B8EA1BA60F5100C6F179 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6091B8F41BA60F5100C6F179 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6091B9001BA60F5100C6F179 /* ExampleViewModelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6091B90C1BA60F6500C6F179 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6091B9161BA60F6500C6F179 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6091B9221BA60F6500C6F179 /* ExampleViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -216,6 +713,46 @@
 			isa = PBXTargetDependency;
 			target = 6091B8A31BA60EDD00C6F179 /* SwinjectMVVMExample */;
 			targetProxy = 6091B8B91BA60EDD00C6F179 /* PBXContainerItemProxy */;
+		};
+		6091B8D81BA60F3400C6F179 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6091B8CB1BA60F3400C6F179 /* ExampleModel */;
+			targetProxy = 6091B8D71BA60F3400C6F179 /* PBXContainerItemProxy */;
+		};
+		6091B8E01BA60F3400C6F179 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6091B8CB1BA60F3400C6F179 /* ExampleModel */;
+			targetProxy = 6091B8DF1BA60F3400C6F179 /* PBXContainerItemProxy */;
+		};
+		6091B8FB1BA60F5100C6F179 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6091B8EE1BA60F5100C6F179 /* ExampleViewModel */;
+			targetProxy = 6091B8FA1BA60F5100C6F179 /* PBXContainerItemProxy */;
+		};
+		6091B9031BA60F5100C6F179 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6091B8EE1BA60F5100C6F179 /* ExampleViewModel */;
+			targetProxy = 6091B9021BA60F5100C6F179 /* PBXContainerItemProxy */;
+		};
+		6091B91D1BA60F6500C6F179 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6091B9101BA60F6500C6F179 /* ExampleView */;
+			targetProxy = 6091B91C1BA60F6500C6F179 /* PBXContainerItemProxy */;
+		};
+		6091B9251BA60F6500C6F179 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6091B9101BA60F6500C6F179 /* ExampleView */;
+			targetProxy = 6091B9241BA60F6500C6F179 /* PBXContainerItemProxy */;
+		};
+		6091B9301BA6233D00C6F179 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6091B8CB1BA60F3400C6F179 /* ExampleModel */;
+			targetProxy = 6091B92F1BA6233D00C6F179 /* PBXContainerItemProxy */;
+		};
+		6091B9331BA6245300C6F179 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6091B8EE1BA60F5100C6F179 /* ExampleViewModel */;
+			targetProxy = 6091B9321BA6245300C6F179 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -366,6 +903,186 @@
 			};
 			name = Release;
 		};
+		6091B8E41BA60F3400C6F179 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = ExampleModel/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bradycoye.SwinjectMVVMExample.ExampleModel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6091B8E51BA60F3400C6F179 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = ExampleModel/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bradycoye.SwinjectMVVMExample.ExampleModel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6091B8E81BA60F3400C6F179 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ExampleModelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bradycoye.SwinjectMVVMExample.ExampleModelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6091B8E91BA60F3400C6F179 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ExampleModelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bradycoye.SwinjectMVVMExample.ExampleModelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6091B9071BA60F5100C6F179 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = ExampleViewModel/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bradycoye.SwinjectMVVMExample.ExampleViewModel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6091B9081BA60F5100C6F179 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = ExampleViewModel/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bradycoye.SwinjectMVVMExample.ExampleViewModel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6091B90A1BA60F5100C6F179 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ExampleViewModelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bradycoye.SwinjectMVVMExample.ExampleViewModelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6091B90B1BA60F5100C6F179 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ExampleViewModelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bradycoye.SwinjectMVVMExample.ExampleViewModelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6091B9291BA60F6500C6F179 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = ExampleView/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bradycoye.SwinjectMVVMExample.ExampleView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6091B92A1BA60F6500C6F179 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = ExampleView/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bradycoye.SwinjectMVVMExample.ExampleView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6091B92C1BA60F6500C6F179 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ExampleViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bradycoye.SwinjectMVVMExample.ExampleViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6091B92D1BA60F6500C6F179 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ExampleViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bradycoye.SwinjectMVVMExample.ExampleViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -391,6 +1108,54 @@
 			buildConfigurations = (
 				6091B8C51BA60EDD00C6F179 /* Debug */,
 				6091B8C61BA60EDD00C6F179 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6091B8E31BA60F3400C6F179 /* Build configuration list for PBXNativeTarget "ExampleModel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6091B8E41BA60F3400C6F179 /* Debug */,
+				6091B8E51BA60F3400C6F179 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6091B8E71BA60F3400C6F179 /* Build configuration list for PBXNativeTarget "ExampleModelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6091B8E81BA60F3400C6F179 /* Debug */,
+				6091B8E91BA60F3400C6F179 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6091B9061BA60F5100C6F179 /* Build configuration list for PBXNativeTarget "ExampleViewModel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6091B9071BA60F5100C6F179 /* Debug */,
+				6091B9081BA60F5100C6F179 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6091B9091BA60F5100C6F179 /* Build configuration list for PBXNativeTarget "ExampleViewModelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6091B90A1BA60F5100C6F179 /* Debug */,
+				6091B90B1BA60F5100C6F179 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6091B9281BA60F6500C6F179 /* Build configuration list for PBXNativeTarget "ExampleView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6091B9291BA60F6500C6F179 /* Debug */,
+				6091B92A1BA60F6500C6F179 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6091B92B1BA60F6500C6F179 /* Build configuration list for PBXNativeTarget "ExampleViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6091B92C1BA60F6500C6F179 /* Debug */,
+				6091B92D1BA60F6500C6F179 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

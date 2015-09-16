@@ -1,0 +1,7 @@
+github "ReactiveCocoa/ReactiveCocoa" "6b617c004d0e690e554caa9a9b8dd8e81ddd8f52"
+github "ikesyo/Himotoki" "b07470e419ef58c9cd97420dcf6ba6f981028d12"
+github "Alamofire/Alamofire" ~> 2.0.0
+github "Swinject/Swinject" ~> 0.2.1
+
+github "Quick/Quick" "ac5eadd202dd67741628f80fb96e8c57388d954d"
+github "Quick/Nimble" "a87c41424b2b8bc7821cf9e0352f87f53daf5263"
